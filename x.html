@@ -9,23 +9,34 @@
     	background-color: #545;
     	padding: 2px;
     	margin: 0px;
+    	color: #abc;
     }
     header{
         text-align: center;
         font-size: 30px;
-        color:Blue;
+        color:blue;
     }
    .nameEffect{
    	font-weight: bolder;
-   	color: Black;
+   	color: black;
+   	font-size: 20px;
    }
-
+   .c1{
+   	color: green;
+    font-size: 15px;
+   }
+   #greets{
+   	font-size: 25px;
+   	color: #666;
+   }
     </style>
     <script type="text/javascript">
-    
-
-
-
+      
+     function greeting(){
+      let name = prompt("enter ur name:");
+      name = "Jai Mata G ki "+name;
+      alert(name);
+     }
     </script>
    <header>There is something about me and my Family</header>
    <p>
@@ -36,25 +47,78 @@
 
    </li>
       <span class="nameEffect">Bhan Singh Shekhawat </span>
-      <span>Chhagan Kanwar</span>
+      married to
+      <span class="nameEffect">Chhagan Kanwar</span>
       <br>
-      <br>
-      <p>They issued 4 son and no Daughter. </p>
+      They issued 4 son and no Daughter.
       <ol>
         <li>Dungar Singh Shekhawat</li>
         <li>Hanuman Singh Shekhawat</li>
         <li>Sharwan Singh Shekhawat</li>
         <li>Rajendra Singh Shekhawat</li>
       </ol>
+      <div class="c1">
+      <div>
+      <span class="nameEffect">Dungar Singh Shekhawat </span>
+      married to
+      <span class="nameEffect">Ummed Kanwar</span>
+      	<br>
+      	and issued 3 son and no Daughter.<br>
+      	<div>
+      	1.Narendra Singh Shekhawat<br>
+      	2.Jitendra Singh Shekhawat<br>
+      	3.Dilip Singh Shekhawat<br>
+        </div>
+      </div>
+
+      <div >
+      <span class="nameEffect">Hanuman Singh Shekhawat </span>
+      married to
+      <span class="nameEffect">Gulab Kanwar</span>
+      	<br>
+      	and issued 2 son and no Daughter.<br>
+      	<div>
+      	1.DharamPal Singh Shekhawat(pintu)<br>
+      	2.AjayPal Singh Shekhawat<br>
+        </div>
+      </div>
+
+      <div>
+      <span class="nameEffect">Sharwan Singh Shekhawat </span>
+      married to
+      <span class="nameEffect">Bhanwar Kanwar</span>
+      	<br>
+      	and issued 2 son and no Daughter.<br>
+      	<div>
+      	1.Vikram Singh Shekhawat<br>
+      	2.Ravindra Singh Shekhawat<br>
+        </div>
+      </div>
+
+       <div>
+      <span class="nameEffect">Rajendra Singh Shekhawat </span>
+      married to
+      <span class="nameEffect">Suman Kanwar</span>
+      	<br>
+      	and issued 2 son and 1 Daughter.<br>
+      	<div>
+      	1.Nisha Kanwar<br>
+      	2.Vijendra Singh Shekhawat<br>
+      	3.Dipendra Singh Shekhawat<br>
+        </div>
+      </div>
+  </div>
    <li>
    	<span class="nameEffect">Ugam Singh Shekhawat </span>
-    <span>Keshar Kanwar</span>
-    <br>
-    <p>and issued no child.</p>
+   	married to 
+    <span class="nameEffect">Keshar Kanwar</span>
+     <br>and issued no child.
    </li>
    </ol>
 
-
+  <button onclick="greeting()">
+  	Click Me
+  </button>
 
 
   </body>
