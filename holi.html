@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Holi Wishes</title>
+	<style type="text/css">
+		#a1{
+			color: #ccc;
+			background: #444;
+            width: 20%;
+            text-align: center;
+		}
+
+
+	</style>
+</head>
+<body>
+ <h1 id="a1">Happy Holi</h1>
+ <img src="https://img.timesnownews.com/story/1553055498-GettyImages-1052967668.jpg?d=600x450" alt="Holi Images">
+<img src="a.jpg">
+<br>
+<br>
+<h3 id ="wish" style="text-align: center;"></h3>
+<button onclick="greet()">click Me</button>
+
+<script type="text/javascript">
+	function greet(){
+     let name = prompt("enter your name")
+        if(name!=null){
+   	alert("Happy Holi "+name);
+   	document.getElementById('wish').innerHTML = "Happy ram ram and holi "+ name +" by Biju"
+   }else{
+   	alert("click again you didn't enter ur name")
+   }
+	}
+</script>
+</body>
+</html>
